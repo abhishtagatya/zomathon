@@ -1,11 +1,11 @@
-from setuptools import setup
+import setuptools
 
 with open('README.md', 'r') as fh:
     long_description = fh.read()
 
-setup(
+setuptools.setup(
     name='zomathon',
-    version=1.2,
+    version=1.3,
     description='Zomato API Python Module',
     long_description=long_description,
     long_description_content_type="text/markdown",
@@ -21,5 +21,5 @@ setup(
 
     license='MIT',
     packages=['zomathon'],
-    zip_safe=True
+    zip_safe=False
 )

@@ -1,11 +1,11 @@
 import setuptools
 
-with open('README.md', 'r') as fh:
+with open('README.rst', 'r') as fh:
     long_description = fh.read()
 
 setuptools.setup(
     name='zomathon',
-    version=1.3,
+    version=1.4,
     description='Zomato API Python Module',
     long_description=long_description,
     long_description_content_type="text/markdown",
